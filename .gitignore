@@ -1,0 +1,5 @@
+.DS_Store
+# builds left in the folder by go build and fyne package
+/tools
+*.app
+*.exe
