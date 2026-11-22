@@ -10,10 +10,17 @@ The small things you would otherwise search the web for, in a small window drive
 It saves nothing of its own. "My IP address" asks api.ipify.org, "IP info" ipinfo.io and rdap.org;
 nothing else leaves your computer unless you ask for it (a ping, a website check, a DNS lookup).
 
+## Download
+
+The app for **macOS** (Mac with Apple chip: M1 and later) and **Windows** is on the
+[Releases](https://github.com/trimlet/tools/releases) page. It is a beta (0.x), and not signed yet: the first
+time, macOS asks to confirm (right click on the app → Open), Windows shows SmartScreen (More info →
+Run anyway).
+
 ## Build
 
-Written in Go with [Fyne](https://fyne.io), for macOS and Windows. Ready-made downloads are not
-published yet. To build it, with Go installed (and on a Mac the Xcode command line tools):
+Written in Go with [Fyne](https://fyne.io). To build it, with Go installed (and on a Mac the Xcode
+command line tools):
 
 ```
 go run fyne.io/tools/cmd/fyne@v1.7.3 package --release
