@@ -2,5 +2,5 @@
 Icon = "assets/icon.png"
 Name = "Trimlet Tools"
 ID = "local.trimlettools"
-Version = "0.1.0"
-Build = 271
+Version = "0.1.1"
+Build = 273
